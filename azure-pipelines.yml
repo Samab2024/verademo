@@ -6,8 +6,8 @@
 trigger:
 - main
 pool:
-#  vmImage: 'ubuntu-latest'
-  name: default
+  vmImage: 'ubuntu-latest'
+#  name: default
 steps:
 - task: Maven@3
   displayName: Build with Maven
